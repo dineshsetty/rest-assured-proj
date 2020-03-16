@@ -8,9 +8,9 @@
 		class="org.apache.log4j.rolling.RollingFileAppender">
 		<rollingPolicy
 			class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
-			<param name="ActiveFileName" value="C://Users//Dinesh//git//testng-listner//testng-project//logs//rest_assured.log" />
+			<param name="ActiveFileName" value="C://Users//Dinesh//git//rest-assured-example//rest-assured-sample//logs//rest_assured.log" />
 			<param name="FileNamePattern"
-				value="C://Users//Dinesh//git//testng-listner//testng-project//logs//rest_assured.%d{dd-MMM}.log.gz" />
+				value="C://Users//Dinesh//git//rest-assured-example//rest-assured-sample//logs//rest_assured.%d{dd-MMM}.log.gz" />
 		</rollingPolicy>
 		<triggeringPolicy
 			class="org.apache.log4j.rolling.SizeBasedTriggeringPolicy">
