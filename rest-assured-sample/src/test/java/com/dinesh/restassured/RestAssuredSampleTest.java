@@ -1,5 +1,6 @@
 package com.dinesh.restassured;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -9,6 +10,8 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class RestAssuredSampleTest {
+
+	private static Logger Log = Logger.getLogger(RestAssuredSampleTest.class.getName());
 
 	@Test
 	public void VerifyJsonResponse() {
